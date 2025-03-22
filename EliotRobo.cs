@@ -11,8 +11,8 @@ namespace WifiTelegramBot
 {
     class Program
     {
-        private static readonly string BotToken = "7732550317:AAFbRD2FX1wMnY3wGqs7xoXTl0mSchvjtHg"; // Replace with your Telegram bot token
-        private static readonly long ChatId = 5607303050; // Replace with your chat ID
+        private static readonly string BotToken = "YOUR_BOT_TOKEN"; // Replace with your Telegram bot token
+        private static readonly long ChatId = CHAT_ID; // Replace with your chat ID
         private static TelegramBotClient botClient;
         private static List<DeviceInfo> previousDevices = new List<DeviceInfo>();
 
